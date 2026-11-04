@@ -26,3 +26,16 @@ header {
   z-index: 100; /* Ensures header is always visible */
   grid-column: 1; /* For body grid shape */
 }
+
+main {
+  padding: 0 5%;
+}
+
+section {
+  border: solid 2px #6a4008;
+  border-radius: 1rem;
+}
+
+.section-header {
+  color: #a3620c;
+}
