@@ -9,5 +9,12 @@
 
 /* General webpage look */
 body {
-
+  background: #ffffff; /* background page color */
+  overflow-y: auto; /* allows for scrolling down instead of text wrapping sideways */
+  /* Page width and height */
+  width: 100%;
+  min-height: 100dvh;
+  /* Properly separates header from main and main from footer */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
