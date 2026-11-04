@@ -18,3 +18,12 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
+header {
+  background: #000000;
+  position: -webkit-sticky; /* for iOS users */
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Ensures header is always visible */
+  grid-column: 1; /* For body grid shape */
+}
