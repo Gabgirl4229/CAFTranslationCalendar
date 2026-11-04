@@ -1,1 +1,13 @@
+/* All elements */
+* {
+  /* Prevents elements expanding past my set width */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Palatino, Didot, Georgia, Times New Roman, Droid Serif; /* Paragraph Fonts */
+}
 
+/* General webpage look */
+body {
+
+}
